@@ -95,7 +95,7 @@ public class UploadDialog extends JDialog
 	private String uploadImage(BufferedImage image) throws IOException
 	{
 		
-			String clientID = "8448571d2cdc1ff";
+			String clientID = "";
 
 			ByteArrayOutputStream byteArray = new ByteArrayOutputStream();
 			ImageIO.write(image, "png", byteArray);
